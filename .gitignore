@@ -1,1 +1,3 @@
 .idea
+.dart_tool
+custom_lint.log
