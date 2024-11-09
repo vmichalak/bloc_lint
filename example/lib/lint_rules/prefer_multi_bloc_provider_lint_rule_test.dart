@@ -1,5 +1,6 @@
 import 'package:bloc_lint_example/sample_cubit/cubit_a_cubit.dart';
 import 'package:bloc_lint_example/sample_cubit/cubit_b_cubit.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
@@ -16,6 +17,6 @@ void main() {
       BlocProvider(create: (_) => ACubit()),
       BlocProvider(create: (_) => BCubit()),
     ],
-    child: expectPreferMultiBlocProvider,
+    child: Container(),
   );
 }

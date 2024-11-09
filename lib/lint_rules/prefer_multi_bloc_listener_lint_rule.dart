@@ -3,18 +3,18 @@ import 'package:analyzer/error/error.dart';
 import 'package:analyzer/error/listener.dart';
 import 'package:custom_lint_builder/custom_lint_builder.dart';
 
-class PreferMultiBlocProviderLintRule extends DartLintRule {
-  const PreferMultiBlocProviderLintRule()
+class PreferMultiBlocListenerLintRule extends DartLintRule {
+  const PreferMultiBlocListenerLintRule()
       : super(
           code: const LintCode(
-            name: 'prefer_multi_bloc_provider',
+            name: 'prefer_multi_bloc_listener',
             problemMessage:
-                '''Consider using MultiBlocProvider instead of multiple BlocProvider instances.''',
+                '''Consider using MultiBlocListener instead of multiple BlocListener instances.''',
             errorSeverity: ErrorSeverity.WARNING,
           ),
         );
 
-  static const _className = 'BlocProvider';
+  static const _className = 'BlocListener';
 
   @override
   void run(

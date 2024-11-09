@@ -9,4 +9,5 @@ The example folder contains a dart project to unit test the rules. (see custom_l
 
 ## Implemented Rules
 
+- [prefer_multi_bloc_listener](docs/rules/prefer_multi_bloc_listener.md)
 - [prefer_multi_bloc_provider](docs/rules/prefer_multi_bloc_provider.md)
