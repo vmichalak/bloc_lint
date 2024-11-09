@@ -1,6 +1,7 @@
 import 'package:analyzer/dart/ast/ast.dart';
 import 'package:analyzer/error/error.dart';
 import 'package:analyzer/error/listener.dart';
+import 'package:bloc_lint/bloc_lint_constants.dart';
 import 'package:custom_lint_builder/custom_lint_builder.dart';
 
 class AvoidPublicMethodsOnBlocLintRule extends DartLintRule {
@@ -22,7 +23,7 @@ class AvoidPublicMethodsOnBlocLintRule extends DartLintRule {
     context.registry.addClassDeclaration((node) {
       final superClass = node.extendsClause?.superclass.element?.name;
 
-      if (superClass == 'Bloc') {
+      if (superClass == BlocLintConstants.blocClass) {
         for (final member in node.members) {
           if (member is MethodDeclaration) {
             final isPublic = !member.name.lexeme.startsWith('_');
