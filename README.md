@@ -13,3 +13,4 @@ The example folder contains a dart project to unit test the rules. (see custom_l
 - [avoid_public_properties_on_bloc_and_cubit](docs/rules/avoid_public_properties_on_bloc_and_cubit.md)
 - [prefer_multi_bloc_listener](docs/rules/prefer_multi_bloc_listener.md)
 - [prefer_multi_bloc_provider](docs/rules/prefer_multi_bloc_provider.md)
+- [prefer_multi_repository_provider](docs/rules/prefer_multi_repository_provider.md)
