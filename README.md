@@ -9,6 +9,7 @@ The example folder contains a dart project to unit test the rules. (see custom_l
 
 ## Implemented Rules
 
+- [avoid_public_methods_on_bloc](docs/rules/avoid_public_methods_on_bloc.md)
 - [avoid_public_properties_on_bloc_and_cubit](docs/rules/avoid_public_properties_on_bloc_and_cubit.md)
 - [prefer_multi_bloc_listener](docs/rules/prefer_multi_bloc_listener.md)
 - [prefer_multi_bloc_provider](docs/rules/prefer_multi_bloc_provider.md)
