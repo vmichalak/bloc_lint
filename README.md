@@ -31,10 +31,10 @@ The example folder contains a dart project to unit test the rules. (see custom_l
 
 ## Implemented Rules
 
-- [avoid_public_methods_on_bloc](docs/rules/avoid_public_methods_on_bloc.md)
-- [avoid_public_properties_on_bloc_and_cubit](docs/rules/avoid_public_properties_on_bloc_and_cubit.md)
-- [event_base_class_suffix](docs/rules/event_base_class_suffix.md)
-- [prefer_multi_bloc_listener](docs/rules/prefer_multi_bloc_listener.md)
-- [prefer_multi_bloc_provider](docs/rules/prefer_multi_bloc_provider.md)
-- [prefer_multi_repository_provider](docs/rules/prefer_multi_repository_provider.md)
-- [state_base_class_suffix](docs/rules/state_base_class_suffix.md) 
+- [avoid_public_methods_on_bloc](doc/rules/avoid_public_methods_on_bloc.md)
+- [avoid_public_properties_on_bloc_and_cubit](doc/rules/avoid_public_properties_on_bloc_and_cubit.md)
+- [event_base_class_suffix](doc/rules/event_base_class_suffix.md)
+- [prefer_multi_bloc_listener](doc/rules/prefer_multi_bloc_listener.md)
+- [prefer_multi_bloc_provider](doc/rules/prefer_multi_bloc_provider.md)
+- [prefer_multi_repository_provider](doc/rules/prefer_multi_repository_provider.md)
+- [state_base_class_suffix](doc/rules/state_base_class_suffix.md) 
