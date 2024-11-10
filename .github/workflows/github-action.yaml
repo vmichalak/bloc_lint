@@ -13,14 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
         with:
-          flutter-version: '3.24.1'
-          channel: 'stable'
+          sdk: '3.5.1'
 
       - name: Get dependencies
-        run: flutter pub get
+        run: dart pub get
 
       - name: Test lint rules
         run: cd example && dart run custom_lint && cd ..
