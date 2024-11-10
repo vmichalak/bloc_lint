@@ -1,7 +1,29 @@
 Bloc Lint
 ===
 
-Custom linter rules for Flutter projects using the [bloc library](https://bloclibrary.dev/).
+Custom linter rules for Flutter projects using the [bloc library](https://bloclibrary.dev/). This package is based on 
+[dart_custom_lint](https://github.com/invertase/dart_custom_lint) package.
+
+## Usage
+
+Add the following to your `pubspec.yaml` file:
+
+```yaml
+dev_dependencies:
+  custom_lint: ^0.7.0
+  bloc_lint: ^0.1.0
+```
+
+Add the following to your `analysis_options.yaml` file:
+
+```yaml
+analyzer:
+  plugins:
+    - custom_lint
+```
+
+That's it! After running pub get (and possibly restarting their IDE), users should now see our custom lints in their
+Dart files. You can also run `dart pub custom_lint` to run the linter in your CLI.
 
 ## Tests
 
