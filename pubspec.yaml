@@ -1,6 +1,9 @@
 name: bloc_lint
-description: Lint rules for BLoC library.
 version: 0.0.0
+description: Set of lint rules for the Flutter BLoC library.
+repository: https://github.com/vmichalak/bloc_lint
+issue_tracker: https://github.com/vmichalak/bloc_lint/issues
+
 environment:
   sdk: ">=3.3.3 <4.0.0"
 
@@ -11,5 +14,4 @@ dependencies:
 
 dev_dependencies:
   very_good_analysis: ^6.0.0
-  flutter_bloc: ^8.1.6
   test: ^1.25.8
