@@ -1,6 +1,13 @@
 Bloc Lint
 ===
 
+# ⚠️ IMPORTANT NOTICE:
+This package have moved to [bloc monorepo](https://github.com/felangel/bloc/pull/4278) and will be maintained there.
+
+Please refer to the Bloc monorepo for the latest updates.
+
+---
+
 Custom linter rules for Flutter projects using the [bloc library](https://bloclibrary.dev/). This package is based on 
 [dart_custom_lint](https://github.com/invertase/dart_custom_lint) package.
 
